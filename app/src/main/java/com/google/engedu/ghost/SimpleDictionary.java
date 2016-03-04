@@ -1,4 +1,9 @@
-
+/**
+ * SimpleDictionary uses an ArrayList to store the words
+ * It uses a binarySearch to find words 
+ * 
+ */
+ 
 package com.google.engedu.ghost;
 
 import java.io.BufferedReader;

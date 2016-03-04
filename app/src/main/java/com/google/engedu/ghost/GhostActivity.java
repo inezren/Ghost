@@ -80,6 +80,11 @@ public class GhostActivity extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+    /**
+     * Function to handle user input. Input is from the Keyboard
+     *Function checks to see if input is a letter and adds it to the fragment
+     **/
+     
     @Override
     public boolean onKeyUp(int  keyCode, KeyEvent event){
         Character c = (char) event.getUnicodeChar();
